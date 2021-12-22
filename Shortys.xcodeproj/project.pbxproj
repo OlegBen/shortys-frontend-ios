@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE5BEBC62773AE57002941EE /* LinkSorterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5BEBC52773AE57002941EE /* LinkSorterView.swift */; };
 		CEAF63A22773627200CFF462 /* ShortysApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF63A12773627200CFF462 /* ShortysApp.swift */; };
 		CEAF63A42773627200CFF462 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF63A32773627200CFF462 /* ContentView.swift */; };
 		CEAF63A62773627600CFF462 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAF63A52773627600CFF462 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE5BEBC52773AE57002941EE /* LinkSorterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkSorterView.swift; sourceTree = "<group>"; };
 		CEAF639E2773627200CFF462 /* Shortys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shortys.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAF63A12773627200CFF462 /* ShortysApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortysApp.swift; sourceTree = "<group>"; };
 		CEAF63A32773627200CFF462 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 				CEAF63A32773627200CFF462 /* ContentView.swift */,
 				CEAF63A52773627600CFF462 /* Assets.xcassets */,
 				CEAF63A72773627600CFF462 /* Preview Content */,
+				CE5BEBC52773AE57002941EE /* LinkSorterView.swift */,
 			);
 			path = Shortys;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEAF63A42773627200CFF462 /* ContentView.swift in Sources */,
+				CE5BEBC62773AE57002941EE /* LinkSorterView.swift in Sources */,
 				CEAF63A22773627200CFF462 /* ShortysApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,7 +281,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,7 +291,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,7 +311,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,7 +321,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

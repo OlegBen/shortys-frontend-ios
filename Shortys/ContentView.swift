@@ -9,8 +9,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            VStack {
+                
+                NavigationLink {
+                    LinkShorterView()
+                } label: {
+                    Text("Создать сокращенную ссылку")
+                        .foregroundColor(.white)
+                        .fontWeight(.medium)
+                }
+                .frame(width: UIScreen.main.bounds.width - 32, height: 50)
+                .background(Color.blue)
+                .cornerRadius(12)
+
+                Spacer()
+            }
+            .navigationTitle("Меню")
+            .navigationBarTitleDisplayMode(.large)
+        }
     }
 }
 
