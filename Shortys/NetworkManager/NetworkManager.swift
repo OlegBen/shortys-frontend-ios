@@ -15,6 +15,10 @@ protocol NetworkManagerProtocol {
     /// - Parameter linkEnd: Окончание ссылки
     /// - Parameter completionHandler: (ShorterLinkResponse?, ErrorResponse?) -> Void
     func create(link: String, linkEnd: String, completionHandler: @escaping (ShorterLinkResponse?, ErrorResponse?) -> Void)
+    
+    /// Получить список ссылок
+    /// - Parameter completionHandler: (ShorterLinksListResponse?, ErrorResponse?) -> Void
+    func getShorterLinks(completionHandler: @escaping (ShorterLinksListResponse?, ErrorResponse?) -> Void)
 }
 
 // MARK: NetworkManager
@@ -36,6 +40,18 @@ class NetworkManager: NetworkManagerProtocol {
                                       endpoint: .create,
                                       method: .post,
                                       params: params,
+                                      headers: HTTPHeaders(),
+                                      completion: completionHandler)
+    }
+    
+    /// Получить список ссылок
+    /// - Parameter completionHandler: (ShorterLinksListResponse?, ErrorResponse?) -> Void
+    func getShorterLinks(completionHandler: @escaping (ShorterLinksListResponse?, ErrorResponse?) -> Void) {
+        self.networkLayer.requestData(ShorterLinksListResponse.self,
+                                      authType: .auth,
+                                      endpoint: .list,
+                                      method: .get,
+                                      params: nil,
                                       headers: HTTPHeaders(),
                                       completion: completionHandler)
     }

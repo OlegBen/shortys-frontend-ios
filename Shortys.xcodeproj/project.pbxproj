@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BB5B1F9E35249EA8C7427D8 /* Pods_Shortys.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5474623F97E4585A51104E1D /* Pods_Shortys.framework */; };
 		CE5BEBC62773AE57002941EE /* LinkSorterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5BEBC52773AE57002941EE /* LinkSorterView.swift */; };
 		CE5BEBC82773BEB5002941EE /* LinksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5BEBC72773BEB5002941EE /* LinksListView.swift */; };
-		1BB5B1F9E35249EA8C7427D8 /* Pods_Shortys.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5474623F97E4585A51104E1D /* Pods_Shortys.framework */; };
+		CE9BE5BC2773D827005C7769 /* ShorterLinksListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9BE5BB2773D827005C7769 /* ShorterLinksListResponse.swift */; };
 		CEAF63A22773627200CFF462 /* ShortysApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF63A12773627200CFF462 /* ShortysApp.swift */; };
 		CEAF63A42773627200CFF462 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF63A32773627200CFF462 /* ContentView.swift */; };
 		CEAF63A62773627600CFF462 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAF63A52773627600CFF462 /* Assets.xcassets */; };
@@ -26,11 +27,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CE5BEBC52773AE57002941EE /* LinkSorterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkSorterView.swift; sourceTree = "<group>"; };
-		CE5BEBC72773BEB5002941EE /* LinksListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksListView.swift; sourceTree = "<group>"; };
 		3A37096092822614EB5C00BC /* Pods-Shortys.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shortys.debug.xcconfig"; path = "Target Support Files/Pods-Shortys/Pods-Shortys.debug.xcconfig"; sourceTree = "<group>"; };
 		5474623F97E4585A51104E1D /* Pods_Shortys.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shortys.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE5BEBC52773AE57002941EE /* LinkSorterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkSorterView.swift; sourceTree = "<group>"; };
+		CE5BEBC72773BEB5002941EE /* LinksListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksListView.swift; sourceTree = "<group>"; };
 		CE9BE5BA2773C93E005C7769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CE9BE5BB2773D827005C7769 /* ShorterLinksListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShorterLinksListResponse.swift; sourceTree = "<group>"; };
 		CEAF639E2773627200CFF462 /* Shortys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shortys.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAF63A12773627200CFF462 /* ShortysApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortysApp.swift; sourceTree = "<group>"; };
 		CEAF63A32773627200CFF462 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 			children = (
 				CEAF63B62773B11200CFF462 /* ErrorResponse.swift */,
 				CEAF63C42773C0C800CFF462 /* ShorterLinkResponse.swift */,
+				CE9BE5BB2773D827005C7769 /* ShorterLinksListResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				CEAF63C52773C0C800CFF462 /* ShorterLinkResponse.swift in Sources */,
 				CEAF63BE2773B27C00CFF462 /* NetworkLayer.swift in Sources */,
 				CEAF63A42773627200CFF462 /* ContentView.swift in Sources */,
+				CE9BE5BC2773D827005C7769 /* ShorterLinksListResponse.swift in Sources */,
 				CE5BEBC62773AE57002941EE /* LinkSorterView.swift in Sources */,
 				CE5BEBC82773BEB5002941EE /* LinksListView.swift in Sources */,
 				CEAF63C02773B82100CFF462 /* AuthType.swift in Sources */,

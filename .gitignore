@@ -20,6 +20,7 @@ xcuserdata/
 *.moved-aside
 *.xccheckout
 *.xcscmblueprint
+.DS_Store
 
 ## We don't want any memgrap's to leak ;)
 **.memgraph

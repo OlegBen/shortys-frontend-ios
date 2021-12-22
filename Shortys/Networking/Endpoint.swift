@@ -11,4 +11,5 @@ import Foundation
 enum Endpoint: String {
     case create = "/api/create/"
     case info = "/api/info/%@"
+    case list = "/api/"
 }
