@@ -7,24 +7,47 @@
 
 import SwiftUI
 
-struct Link {
-    var id: String
-    var link: String
-}
-
 struct LinksListView: View {
     
-    @State var links: [Link] = []
+    @State private var links: [ShorterLinkResponse] = []
+    @State private var isLoading: Bool = false
+    
+    private var network = NetworkManager()
     
     var body: some View {
-        ScrollView(.vertical, showsIndicators: true) {
-            VStack {
-                
-                ForEach(links, id: \.id) { value in
-                    Text(value.link)
+        if isLoading {
+            Text("Загрузка...")
+                .foregroundColor(.blue)
+                .fontWeight(.medium)
+        } else {
+            ScrollView(.vertical, showsIndicators: true) {
+                VStack {
+                    
+                    ForEach(links, id: \.id) { value in
+                        Text(value.shortenedLink ?? "shortened link")
+                    }
+                    
                 }
-                
             }
+            .onAppear {
+                if links.isEmpty {
+                    requestList()
+                }
+            }
+        }
+    }
+    
+    private func requestList() {
+        isLoading = true
+        network.getShorterLinks { response, error in
+            guard error == nil else { return }
+            
+            guard let list = response?.results else {
+                return
+            }
+            
+            self.links = list
+            self.isLoading = false
         }
     }
 }

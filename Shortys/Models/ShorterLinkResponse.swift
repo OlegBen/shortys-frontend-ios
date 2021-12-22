@@ -9,7 +9,7 @@ import Foundation
 
 // MARK: ShorterLinkResponse
 struct ShorterLinkResponse: Codable {
-    let id: Int?
+    let id: Int
     let originalLink: String?
     let shortenedLink: String?
     let shortenerLinkEnd: String?
