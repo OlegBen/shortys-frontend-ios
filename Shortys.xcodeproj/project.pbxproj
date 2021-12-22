@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CE5BEBC62773AE57002941EE /* LinkSorterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5BEBC52773AE57002941EE /* LinkSorterView.swift */; };
+		CE5BEBC82773BEB5002941EE /* LinksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5BEBC72773BEB5002941EE /* LinksListView.swift */; };
 		CEAF63A22773627200CFF462 /* ShortysApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF63A12773627200CFF462 /* ShortysApp.swift */; };
 		CEAF63A42773627200CFF462 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF63A32773627200CFF462 /* ContentView.swift */; };
 		CEAF63A62773627600CFF462 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAF63A52773627600CFF462 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		CE5BEBC52773AE57002941EE /* LinkSorterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkSorterView.swift; sourceTree = "<group>"; };
+		CE5BEBC72773BEB5002941EE /* LinksListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksListView.swift; sourceTree = "<group>"; };
 		CEAF639E2773627200CFF462 /* Shortys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shortys.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAF63A12773627200CFF462 /* ShortysApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortysApp.swift; sourceTree = "<group>"; };
 		CEAF63A32773627200CFF462 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				CEAF63A52773627600CFF462 /* Assets.xcassets */,
 				CEAF63A72773627600CFF462 /* Preview Content */,
 				CE5BEBC52773AE57002941EE /* LinkSorterView.swift */,
+				CE5BEBC72773BEB5002941EE /* LinksListView.swift */,
 			);
 			path = Shortys;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			files = (
 				CEAF63A42773627200CFF462 /* ContentView.swift in Sources */,
 				CE5BEBC62773AE57002941EE /* LinkSorterView.swift in Sources */,
+				CE5BEBC82773BEB5002941EE /* LinksListView.swift in Sources */,
 				CEAF63A22773627200CFF462 /* ShortysApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
