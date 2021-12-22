@@ -9,20 +9,43 @@
 /* Begin PBXBuildFile section */
 		CE5BEBC62773AE57002941EE /* LinkSorterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5BEBC52773AE57002941EE /* LinkSorterView.swift */; };
 		CE5BEBC82773BEB5002941EE /* LinksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5BEBC72773BEB5002941EE /* LinksListView.swift */; };
+		1BB5B1F9E35249EA8C7427D8 /* Pods_Shortys.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5474623F97E4585A51104E1D /* Pods_Shortys.framework */; };
 		CEAF63A22773627200CFF462 /* ShortysApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF63A12773627200CFF462 /* ShortysApp.swift */; };
 		CEAF63A42773627200CFF462 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF63A32773627200CFF462 /* ContentView.swift */; };
 		CEAF63A62773627600CFF462 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAF63A52773627600CFF462 /* Assets.xcassets */; };
 		CEAF63A92773627600CFF462 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAF63A82773627600CFF462 /* Preview Assets.xcassets */; };
+		CEAF63B22773B02100CFF462 /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF63B12773B02100CFF462 /* BaseAPI.swift */; };
+		CEAF63B42773B05A00CFF462 /* NetworkLayerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF63B32773B05A00CFF462 /* NetworkLayerProtocol.swift */; };
+		CEAF63B72773B11200CFF462 /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF63B62773B11200CFF462 /* ErrorResponse.swift */; };
+		CEAF63BA2773B1D100CFF462 /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF63B92773B1D100CFF462 /* NetworkConstants.swift */; };
+		CEAF63BC2773B1E000CFF462 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF63BB2773B1E000CFF462 /* Endpoint.swift */; };
+		CEAF63BE2773B27C00CFF462 /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF63BD2773B27C00CFF462 /* NetworkLayer.swift */; };
+		CEAF63C02773B82100CFF462 /* AuthType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF63BF2773B82100CFF462 /* AuthType.swift */; };
+		CEAF63C32773BEFA00CFF462 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF63C22773BEFA00CFF462 /* NetworkManager.swift */; };
+		CEAF63C52773C0C800CFF462 /* ShorterLinkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF63C42773C0C800CFF462 /* ShorterLinkResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE5BEBC52773AE57002941EE /* LinkSorterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkSorterView.swift; sourceTree = "<group>"; };
 		CE5BEBC72773BEB5002941EE /* LinksListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksListView.swift; sourceTree = "<group>"; };
+		3A37096092822614EB5C00BC /* Pods-Shortys.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shortys.debug.xcconfig"; path = "Target Support Files/Pods-Shortys/Pods-Shortys.debug.xcconfig"; sourceTree = "<group>"; };
+		5474623F97E4585A51104E1D /* Pods_Shortys.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shortys.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9BE5BA2773C93E005C7769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		CEAF639E2773627200CFF462 /* Shortys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shortys.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAF63A12773627200CFF462 /* ShortysApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortysApp.swift; sourceTree = "<group>"; };
 		CEAF63A32773627200CFF462 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CEAF63A52773627600CFF462 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEAF63A82773627600CFF462 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEAF63B12773B02100CFF462 /* BaseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAPI.swift; sourceTree = "<group>"; };
+		CEAF63B32773B05A00CFF462 /* NetworkLayerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayerProtocol.swift; sourceTree = "<group>"; };
+		CEAF63B62773B11200CFF462 /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		CEAF63B92773B1D100CFF462 /* NetworkConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
+		CEAF63BB2773B1E000CFF462 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		CEAF63BD2773B27C00CFF462 /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
+		CEAF63BF2773B82100CFF462 /* AuthType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthType.swift; sourceTree = "<group>"; };
+		CEAF63C22773BEFA00CFF462 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		CEAF63C42773C0C800CFF462 /* ShorterLinkResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShorterLinkResponse.swift; sourceTree = "<group>"; };
+		E81B4D4D41270B6F7A14A9CD /* Pods-Shortys.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shortys.release.xcconfig"; path = "Target Support Files/Pods-Shortys/Pods-Shortys.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,17 +53,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BB5B1F9E35249EA8C7427D8 /* Pods_Shortys.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E8A63F3ACD0CD5C6827F86B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5474623F97E4585A51104E1D /* Pods_Shortys.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CEAF63952773627200CFF462 = {
 			isa = PBXGroup;
 			children = (
 				CEAF63A02773627200CFF462 /* Shortys */,
 				CEAF639F2773627200CFF462 /* Products */,
+				FB9E51295D75C91AECF4F012 /* Pods */,
+				1E8A63F3ACD0CD5C6827F86B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,6 +89,10 @@
 		CEAF63A02773627200CFF462 /* Shortys */ = {
 			isa = PBXGroup;
 			children = (
+				CE9BE5BA2773C93E005C7769 /* Info.plist */,
+				CEAF63B52773B0FE00CFF462 /* Models */,
+				CEAF63AF2773AE7800CFF462 /* Networking */,
+				CEAF63C12773BECF00CFF462 /* NetworkManager */,
 				CEAF63A12773627200CFF462 /* ShortysApp.swift */,
 				CEAF63A32773627200CFF462 /* ContentView.swift */,
 				CEAF63A52773627600CFF462 /* Assets.xcassets */,
@@ -73,6 +111,53 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		CEAF63AF2773AE7800CFF462 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				CEAF63B02773AFDE00CFF462 /* Protocols */,
+				CEAF63B92773B1D100CFF462 /* NetworkConstants.swift */,
+				CEAF63BF2773B82100CFF462 /* AuthType.swift */,
+				CEAF63BB2773B1E000CFF462 /* Endpoint.swift */,
+				CEAF63BD2773B27C00CFF462 /* NetworkLayer.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		CEAF63B02773AFDE00CFF462 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				CEAF63B12773B02100CFF462 /* BaseAPI.swift */,
+				CEAF63B32773B05A00CFF462 /* NetworkLayerProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		CEAF63B52773B0FE00CFF462 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CEAF63B62773B11200CFF462 /* ErrorResponse.swift */,
+				CEAF63C42773C0C800CFF462 /* ShorterLinkResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CEAF63C12773BECF00CFF462 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				CEAF63C22773BEFA00CFF462 /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		FB9E51295D75C91AECF4F012 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A37096092822614EB5C00BC /* Pods-Shortys.debug.xcconfig */,
+				E81B4D4D41270B6F7A14A9CD /* Pods-Shortys.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -80,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEAF63AC2773627600CFF462 /* Build configuration list for PBXNativeTarget "Shortys" */;
 			buildPhases = (
+				26FAC1F5264C11C0ED8DD915 /* [CP] Check Pods Manifest.lock */,
 				CEAF639A2773627200CFF462 /* Sources */,
 				CEAF639B2773627200CFF462 /* Frameworks */,
 				CEAF639C2773627200CFF462 /* Resources */,
+				F9AFD91192BCD222CCDF95B5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -138,14 +225,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26FAC1F5264C11C0ED8DD915 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shortys-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9AFD91192BCD222CCDF95B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Shortys/Pods-Shortys-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Shortys/Pods-Shortys-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Shortys/Pods-Shortys-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CEAF639A2773627200CFF462 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEAF63BC2773B1E000CFF462 /* Endpoint.swift in Sources */,
+				CEAF63BA2773B1D100CFF462 /* NetworkConstants.swift in Sources */,
+				CEAF63C32773BEFA00CFF462 /* NetworkManager.swift in Sources */,
+				CEAF63B72773B11200CFF462 /* ErrorResponse.swift in Sources */,
+				CEAF63B22773B02100CFF462 /* BaseAPI.swift in Sources */,
+				CEAF63C52773C0C800CFF462 /* ShorterLinkResponse.swift in Sources */,
+				CEAF63BE2773B27C00CFF462 /* NetworkLayer.swift in Sources */,
 				CEAF63A42773627200CFF462 /* ContentView.swift in Sources */,
 				CE5BEBC62773AE57002941EE /* LinkSorterView.swift in Sources */,
 				CE5BEBC82773BEB5002941EE /* LinksListView.swift in Sources */,
+				CEAF63C02773B82100CFF462 /* AuthType.swift in Sources */,
+				CEAF63B42773B05A00CFF462 /* NetworkLayerProtocol.swift in Sources */,
 				CEAF63A22773627200CFF462 /* ShortysApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +409,7 @@
 		};
 		CEAF63AD2773627600CFF462 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A37096092822614EB5C00BC /* Pods-Shortys.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -280,6 +419,7 @@
 				DEVELOPMENT_TEAM = FDQQ9JJ6SG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Shortys/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +441,7 @@
 		};
 		CEAF63AE2773627600CFF462 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E81B4D4D41270B6F7A14A9CD /* Pods-Shortys.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +451,7 @@
 				DEVELOPMENT_TEAM = FDQQ9JJ6SG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Shortys/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
