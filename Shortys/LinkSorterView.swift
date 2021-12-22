@@ -11,9 +11,14 @@ struct LinkShorterView: View {
     
     @State private var link: String = ""
     @State private var shortLink: String = ""
-    @State private var ending: String = ""
+    @State private var ending: String = "" {
+        didSet {
+            print(ending)
+        }
+    }
     
     @State private var isLoading: Bool = false
+    var ends = [".com", ".ru", ".su"]
     
     private var network = NetworkManager()
     
@@ -26,10 +31,11 @@ struct LinkShorterView: View {
             
             Text("Выберите окончание сокращенной ссылки")
             Picker("Выбрать окончание", selection: $ending) {
-                Text(".com")
-                Text(".su")
-                Text(".ru")
+                ForEach(ends, id: \.self) {
+                    Text($0)
+                }
             }
+            .pickerStyle(.wheel)
             .frame(width: UIScreen.main.bounds.width, height: 50)
             
             Button {
@@ -65,6 +71,7 @@ struct LinkShorterView: View {
     private func shortTheLink() {
         shortLink = ""
         isLoading = true
+        print(self.ending)
         network.create(link: self.link, linkEnd: self.ending) { response, error in
             self.isLoading = false
             guard error == nil else { return }
