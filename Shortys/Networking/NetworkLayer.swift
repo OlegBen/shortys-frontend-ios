@@ -36,7 +36,8 @@ final class NetworkLayer: NetworkLayerProtocol, BaseAPI {
     /// Конструктор заголовков для авторизованного запроса
     /// - Returns: Готовые заголовки для запроса
     internal func makeAuthHeaders() -> HTTPHeaders {
-        let headers = makeUnAuthHeaders()
+        var headers = makeUnAuthHeaders()
+        headers.add(HTTPHeader(name: NetworkConstants.authorization, value: NetworkConstants.token))
         return headers
     }
     
