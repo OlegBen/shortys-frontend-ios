@@ -11,6 +11,7 @@ struct LinkShorterView: View {
     
     @State private var link: String = ""
     @State private var shortLink: String = ""
+    @State private var ending: String = ""
     
     @State private var isLoading: Bool = false
     
@@ -20,6 +21,14 @@ struct LinkShorterView: View {
             TextField("Введите ссылку", text: $link, prompt: Text("Введите ссылку"))
                 .font(.system(size: 20, weight: .medium))
                 .padding()
+            
+            Text("Выберите окончание сокращенной ссылки")
+            Picker("Выбрать окончание", selection: $ending) {
+                Text(".com")
+                Text(".su")
+                Text(".ru")
+            }
+            .frame(width: UIScreen.main.bounds.width, height: 50)
             
             Button {
                 shortTheLink()
