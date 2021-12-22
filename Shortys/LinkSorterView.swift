@@ -15,6 +15,8 @@ struct LinkShorterView: View {
     
     @State private var isLoading: Bool = false
     
+    private var network = NetworkManager()
+    
     var body: some View {
         VStack {
             
@@ -63,9 +65,16 @@ struct LinkShorterView: View {
     private func shortTheLink() {
         shortLink = ""
         isLoading = true
-        DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
-            isLoading = false
-            shortLink = "Сокращенная ссылка"
+        network.create(link: self.link, linkEnd: self.ending) { response, error in
+            self.isLoading = false
+            guard error == nil else { return }
+            
+            guard let link = response?.shortenedLink else {
+                return
+            }
+
+            self.shortLink = link
+            
         }
     }
 }
